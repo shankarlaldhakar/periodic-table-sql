@@ -1,4 +1,4 @@
-INSERT INTO `isotopes` VALUES
+INSERT INTO `isotope` VALUES
 
 -- Hydrogen --
 (1,1,0,1.00782503,NULL,'Protium','1H'),
