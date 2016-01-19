@@ -9,5 +9,5 @@ CREATE TABLE `isotope` (
   `symbol` varchar(45) NOT NULL,
   PRIMARY KEY (`isotope_id`),
   KEY `fk_isotope_element_id_idx` (`element_id`),
-  CONSTRAINT `fk_isotope_element_id` FOREIGN KEY (`element_id`) REFERENCES `elements` (`element_id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+  CONSTRAINT `fk_isotope_element_id` FOREIGN KEY (`element_id`) REFERENCES `element` (`element_id`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

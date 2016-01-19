@@ -1,4 +1,4 @@
-CREATE TABLE `elements` (
+CREATE TABLE `element` (
   `element_id` int(11) NOT NULL AUTO_INCREMENT,
   `group` tinyint(1) DEFAULT NULL,
   `period` tinyint(1) DEFAULT NULL,
