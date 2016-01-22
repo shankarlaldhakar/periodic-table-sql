@@ -1,5 +1,8 @@
 # periodic-table-sql
-SQL Database of the Periodic Table (118 elements)  
-SQL Database of the related isotopes (updated)
+SQL Database
+
+ - Periodic Table (118 elements)  
+ - Related isotopes (updated)
+ - Decay chains (updated)
 
 
