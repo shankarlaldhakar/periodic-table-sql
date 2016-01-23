@@ -14,7 +14,7 @@ CREATE TABLE `decay_mode` (
   `decay_id`      int(11) NOT NULL,
   `proton`        int(11) NOT NULL,
   `neutron`       int(11) NOT NULL,
-  `percent`       int(11) NULL,
+  `percent`       decimal(10,8) NULL,
 
   PRIMARY KEY (`decay_mode_id`),
   KEY `fk_decay_mode_decay_id_idx` (`decay_id`),
