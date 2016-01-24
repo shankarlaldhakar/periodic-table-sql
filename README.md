@@ -2,7 +2,7 @@
 SQL Database
 
  - Periodic Table (118 elements)  
- - Related isotopes (updated)
+ - Related isotopes (H-Mg, updated)
  - Decay chains (updated)
 
 
