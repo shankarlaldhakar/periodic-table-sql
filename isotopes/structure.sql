@@ -4,7 +4,7 @@ CREATE TABLE `isotope` (
   `element_id` int(11) NOT NULL,
   `proton`     int(11) NOT NULL,
   `neutron`    int(11) NOT NULL,
-  `mass`       decimal(10,8) NOT NULL,
+  `mass`       double NOT NULL,
   `half_life`  double DEFAULT NULL,
   `symbol`     varchar(45) NOT NULL,
 

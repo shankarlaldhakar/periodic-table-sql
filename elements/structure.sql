@@ -4,7 +4,7 @@ CREATE TABLE `element` (
   `group`      tinyint(1) DEFAULT NULL,
   `period`     tinyint(1) DEFAULT NULL,
   `number`     tinyint(3) NOT NULL,
-  `mass`       decimal(10,8) NOT NULL,
+  `mass`       double NOT NULL,
   `symbol`     varchar(2) NOT NULL,
   `name`       varchar(45) NOT NULL,
 
